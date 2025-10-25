@@ -27,6 +27,6 @@ This file plots graphs of blue mass movement in scatter diagram and function cur
 
 3. Visualise the movement with the data in csv file.
 
-![image](https://github.com/user-attachments/assets/c971e3ee-6eed-4a51-b74a-0d449af1bc9c) 
+
 
 
