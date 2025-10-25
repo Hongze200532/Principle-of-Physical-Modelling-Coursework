@@ -21,7 +21,7 @@ def fit_circle(x, y):
     return a, b, r
 
 a_px, b_px, r_px = fit_circle(X_pixels, Y_pixels)
-print(f"Center of Circle (Pixel): ({a_px:.2f}, {b_px:.2f}), 半径: {r_px:.2f} px")
+print(f"Center of Circle (Pixel): ({a_px:.2f}, {b_px:.2f}), R: {r_px:.2f} px")
 
 # Pixel -> cm
 scale = r_px / 0.5
@@ -64,7 +64,7 @@ y_center = np.mean(Yb)
 
 # === Calculate θ(t) (Unit:rad) ===
 theta_rad = np.arctan2(-(Yb - y_center), Xb - x_center)
-theta_unwrapped = np.unwrap(theta_rad)  # 直接保持弧度制
+theta_unwrapped = np.unwrap(theta_rad)  # keep in Rad
 
 fps = 30
 t = frame / fps
