@@ -3,7 +3,7 @@
 ## Theoretical model 
 Using the math (ODE equation) method only.
 
-### ST0_Theoretcial
+### ST0_Theoretcial.py
 This file applies the Langrain equiation to model the movenet of the whole systme under the circumstance without friction.
 
 ## Experiment Result 
@@ -26,3 +26,7 @@ This file plots graphs of blue mass movement in scatter diagram and function cur
 2. Convert the coordinate data (i.e. X&Y data) into theta, convert unit pixel into centimeter. Put into file (mass_point_theta.csv)
 
 3. Visualise the movement with the data in csv file.
+
+![image](https://github.com/user-attachments/assets/c971e3ee-6eed-4a51-b74a-0d449af1bc9c) 
+
+
